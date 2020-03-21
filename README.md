@@ -11,6 +11,12 @@ Edit the file src/user_config.h
 
 # Build
 
+## Setup your config
+
+Copy the example file:
+         cd src
+         cp user_config_override_sample.h user_config_override.h
+
 To build the code please type
 
          make
