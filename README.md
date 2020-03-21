@@ -40,9 +40,16 @@ Please the checkout the [PlatformIO Vim Setup](https://docs.platformio.org/en/la
 
 # Issues
 
+## user_config_ovverride.h not found
          esp32cam/src/CameraWebServer.ino:3:34: fatal error: user_config_override.h: No such file or directory
 
 In this case please goto into the esp32cam/src directory and type
          cp user_config_override_sample.h user_config_override.h
 
 __Note: Don't forget to update your WIFI Credentials.__
+
+## Upload does not work
+
+         Error: Please specify `upload_port` for environment or use global `--upload-port` option.
+
+Check your USB port. Default is /dev/tyyUSB0. Change the platformio.ini if you have another one.
