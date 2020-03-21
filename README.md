@@ -37,3 +37,12 @@ Just type the following command in your shell
 # PlatformIO vim setup
 
 Please the checkout the [PlatformIO Vim Setup](https://docs.platformio.org/en/latest/integration/ide/vim.html "Link") Website for more information.
+
+# Issues
+
+         esp32cam/src/CameraWebServer.ino:3:34: fatal error: user_config_override.h: No such file or directory
+
+In this case please goto into the esp32cam/src directory and type
+         cp user_config_override_sample.h user_config_override.h
+
+__Note: Don't forget to update your WIFI Credentials.__
