@@ -4,11 +4,6 @@
  * personal settings
 */
 
-#ifndef _USER_CONFIG_OVERRIDE_H_
-#define _USER_CONFIG_OVERRIDE_H_
-
-// force the compiler to show a warning to confirm that this file is included
-#warning **** user_config_override.h: Using Settings from this File ****
 
 // changeme
 
@@ -19,6 +14,7 @@
 #define STA_PASS         "pass"         // [Password1] Wifi password
 
 // Select camera model
+
 //define CAMERA_MODEL_WROVER_KIT
 //#define CAMERA_MODEL_ESP_EYE
 //#define CAMERA_MODEL_M5STACK_PSRAM
