@@ -10,10 +10,10 @@
 // changeme
 
 #undef  STA_SSID
-#define STA_SSID         "ssid"             // [Ssid1] Wifi SSID
+#define STA_SSID         "MURCOC1"             // [Ssid1] Wifi SSID
 
 #undef  STA_PASS
-#define STA_PASS         "password"         // [Password1] Wifi password
+#define STA_PASS         "geometrie"         // [Password1] Wifi password
 
 // Select camera model
 //define CAMERA_MODEL_WROVER_KIT
