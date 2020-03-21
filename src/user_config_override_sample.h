@@ -1,4 +1,7 @@
 /* user_config_override
+ *
+ * Copy this file to src/user_config_override.h and change your
+ * personal settings
 */
 
 #ifndef _USER_CONFIG_OVERRIDE_H_
