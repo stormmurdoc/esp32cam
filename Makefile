@@ -5,7 +5,7 @@ all:
 	platformio -f -c vim run
 
 upload:
-	platformio -f -c vim run --target upload
+	platformio -f -c vim run --target upload monitor
 
 clean:
 	platformio -f -c vim run --target clean
